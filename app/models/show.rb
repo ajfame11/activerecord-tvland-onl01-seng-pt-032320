@@ -4,6 +4,9 @@ class Show < ActiveRecord::Base
   
   has_many :characters
   
+  has_many :actors, 
   
+  def actors_list
+    
   
 end
